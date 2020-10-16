@@ -9,4 +9,16 @@ public class MyStack {
     l.addToStart(data);
     l.print();
     }
+    public void peek()
+    {
+        System.out.println(l.head.data);
+    }
+    public void pop()
+    {
+        l.pop();
+    }
+    public void print()
+    {
+        l.print();
+    }
 }
