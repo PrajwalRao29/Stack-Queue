@@ -1,6 +1,6 @@
 package com.cg.StackQueue;
 
-public class MyStackMain {
+public class MainDemo {
     public static void main(String[] args) {
         MyStack s = new MyStack();
         System.out.println("PUSH OPERATION");
@@ -12,5 +12,10 @@ public class MyStackMain {
         System.out.println("POP");
         s.pop();
         s.print();
+        MyQueue q=new MyQueue();
+        q.enqueue(56);
+        q.enqueue(30);
+        q.enqueue(70);
+        
     }
 }
