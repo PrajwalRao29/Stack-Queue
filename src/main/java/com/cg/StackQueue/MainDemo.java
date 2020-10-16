@@ -16,6 +16,15 @@ public class MainDemo {
         q.enqueue(56);
         q.enqueue(30);
         q.enqueue(70);
-        
+        System.out.println();
+        System.out.println("DEQUEUE 1");
+        q.dequeue();
+        q.print();
+        System.out.println("DEQUEUE 2");
+        q.dequeue();
+        q.print();
+        System.out.println("DEQUEUE 3");
+        q.dequeue();
+        q.print();
     }
 }

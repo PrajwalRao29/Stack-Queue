@@ -72,11 +72,15 @@ public class MyLinkedList {
 
     public void popLast() {
         Node temp = head;
+        if(this.size()==1)
+        {
+            head=null;
+            return;
+        }
         while (temp.next.next != null) {
             temp = temp.next;
         }
         temp.next = null;
-
     }
 
     public boolean delete(int data) {

@@ -9,6 +9,10 @@ public class MyQueue {
         l.addToEnd(data);
         l.print();
     }
+    public void dequeue()
+    {
+        l.popLast();
+    }
     public void print()
     {
         l.print();
